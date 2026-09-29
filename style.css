@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@585&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #033050;
+    font-family: "Montserrat", sans-serif;
+
+    background-color: #53778d;
+    
+    
+}
+.card {
+    width: 720px;
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    border:solid white;
+}
+
+img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.first {
+    width: 720px;
+    height: 320px;
+
+    background-image: url("./image/pokhara.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #edf2fb;
+    border-radius: 12px 12px 0 0;
+}
+
+#explore {
+    background-color: #013a63;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#desp {
+    background-color: #2a6f97;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 550px;
+}
+
+.second {
+    width: 720px;
+    height: 320px;
+    background-color: #cffaf0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    background-color:white;
+    width:720px;
+    border-radius:0  0 8px  8px;
+}
+
+.bcard {
+    width: 400px;
+    height: 294px;
+    background-color: #43acaf;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 5px solid;
+    margin:50px auto;
+}
+
+#guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#guideimage {
+    width: 180px;
+    height: 248.67px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+p {
+    margin: 10px;
+}
